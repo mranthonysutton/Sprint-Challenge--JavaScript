@@ -41,7 +41,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explanation:
 
 /*
-  nestedFunction is able to access the internal variable due to cascading. With closures, all variables or functions can access each other downwards, but can never access each other going upwards. For example, if a variable was created inside nestedFunction, myFunction would not be able to call that variable.
+  nestedFunction is able to access the internal variable due to cascading. With closures all variables or functions can access each other downwards, but can never access each other going upwards. For example, if a variable was created inside nestedFunction, myFunction would not be able to call that variable.
 */
 
 const external = "I'm outside the function";
